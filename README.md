@@ -1,8 +1,8 @@
-# [Under Review] ExtNCO: A fine-grained divide-and-conquer approach for extending NCO to solve large-scale Traveling Salesman Problem
+# [Under Review] FGDC: A fine-grained divide-and-conquer approach for extending NCO to solve large-scale Traveling Salesman Problem
 
 ![overview](./overview.png)
 
-This repository contains the implementation of our paper ExtNCO: A fine-grained divide-and-conquer approach for extending NCO to solve large-scale Traveling Salesman Problem.
+This repository contains the implementation of our paper FGDC: A fine-grained divide-and-conquer approach for extending NCO to solve large-scale Traveling Salesman Problem.
 
 ## Highlights
 
@@ -37,7 +37,7 @@ additional packages may be required to reproduce baselines
 
 ## Basic Usage
 
-We provide codes of ExtNCO that utilizes POMO pre-trained on TSP-100 to solve REI / TSPLIB / VLSI instances.
+We provide codes of FGDC that utilizes POMO pre-trained on TSP-100 to solve REI / TSPLIB / VLSI instances.
 
 ```bash
 python main.py
