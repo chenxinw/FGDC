@@ -1,4 +1,4 @@
-# [Under Review] FGDC: A fine-grained divide-and-conquer approach for extending NCO to solve large-scale Traveling Salesman Problem
+# [ESWA] FGDC: A fine-grained divide-and-conquer approach for extending NCO to solve large-scale Traveling Salesman Problem
 
 ![overview](./overview.png)
 
@@ -75,4 +75,20 @@ Besides, remember to modify the **`baselines/gcn_mcts/code/TSP_IO.h`** file (lin
 ```bash
 cd baselines/gcn_mcts/
 bash solve.sh
+```
+
+## Citation
+If you encounter any difficulty using our code, please do not hesitate to submit an issue or directly contact us!
+
+If you do find our code helpful (or if you would be so kind as to offer us some encouragement), please consider kindly giving a star, and citing our paper.
+
+```bibtex
+@article{chen2025fgdc,
+  title={FGDC: A fine-grained divide-and-conquer approach for extending NCO to solve large-scale Traveling Salesman Problem},
+  author={Chen, Xinwei and Li, Yurui and Yang, Yifan and Zhang, Li and Li, Shijian and Pan, Gang},
+  journal={Expert Systems with Applications},
+  pages={127950},
+  year={2025},
+  publisher={Elsevier}
+}
 ```
